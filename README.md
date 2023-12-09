@@ -39,6 +39,8 @@ python3 http_bruteforce.py -x <usr_wordlist> -y <pwd_wordlist> -t <target_url> -
 ```bash
 pip install http_bruteforce
 ```
+[Link](https://pypi.org/project/http-bruteforce/1.0/}
+
 ## Disclaimer
 This script is intended for educational and ethical purposes only. Unauthorized use of this script to perform malicious activities is strictly prohibited. The developers are not responsible for any misuse or damage caused by this script.
 
