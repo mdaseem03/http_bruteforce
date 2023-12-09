@@ -23,14 +23,20 @@ Ensure you have the following prerequisites installed before using the script:
 ## Usage
 
 ```bash
-python http_bruteforce.py -x <usr_wordlist> -y <pwd_wordlist> -t <target_url> -u <username_param> -p <password_param> -m <http_method> [-e <error_message>]
+python3 http_bruteforce.py -x <usr_wordlist> -y <pwd_wordlist> -t <target_url> -u <username_param> -p <password_param> -m <http_method> [-e <error_message>]
 ```
 
 ## Options
--x, --usrwordlist: Path to the usernames wordlist file (required).
--y, --pwdwordlist: Path to the passwords wordlist file (required).
--t, --target: Target URL (required).
--u, --username: Username parameter (required).
--p, --password: Password parameter (required).
--m, --method: HTTP method (choose from 'get' or 'post', required).
--e, --error: Error message (optional).
+- `x, --usrwordlist`: Path to the usernames wordlist file (required).
+- `y, --pwdwordlist`: Path to the passwords wordlist file (required).
+- `t, --target`: Target URL (required).
+- `u, --username`: Username parameter (required).
+- `p, --password`: Password parameter (required).
+- `m, --method`: HTTP method (choose from 'get' or 'post', required).
+- `e, --error`: Error message (optional).
+
+## Disclaimer
+This script is intended for educational and ethical purposes only. Unauthorized use of this script to perform malicious activities is strictly prohibited. The developers are not responsible for any misuse or damage caused by this script.
+
+## Version History
+`v0.1 (Initial Release)`: Basic functionality with support for GET and POST methods.
