@@ -24,3 +24,13 @@ Ensure you have the following prerequisites installed before using the script:
 
 ```bash
 python http_bruteforce.py -x <usr_wordlist> -y <pwd_wordlist> -t <target_url> -u <username_param> -p <password_param> -m <http_method> [-e <error_message>]
+```
+
+## Options
+-x, --usrwordlist: Path to the usernames wordlist file (required).
+-y, --pwdwordlist: Path to the passwords wordlist file (required).
+-t, --target: Target URL (required).
+-u, --username: Username parameter (required).
+-p, --password: Password parameter (required).
+-m, --method: HTTP method (choose from 'get' or 'post', required).
+-e, --error: Error message (optional).
