@@ -35,6 +35,10 @@ python3 http_bruteforce.py -x <usr_wordlist> -y <pwd_wordlist> -t <target_url> -
 - `m, --method`: HTTP method (choose from 'get' or 'post', required).
 - `e, --error`: Error message (optional).
 
+## Python Module Installation
+```bash
+pip install http_bruteforce
+```
 ## Disclaimer
 This script is intended for educational and ethical purposes only. Unauthorized use of this script to perform malicious activities is strictly prohibited. The developers are not responsible for any misuse or damage caused by this script.
 
