@@ -39,4 +39,4 @@ python3 http_bruteforce.py -x <usr_wordlist> -y <pwd_wordlist> -t <target_url> -
 This script is intended for educational and ethical purposes only. Unauthorized use of this script to perform malicious activities is strictly prohibited. The developers are not responsible for any misuse or damage caused by this script.
 
 ## Version History
-`v0.1 (Initial Release)`: Basic functionality with support for GET and POST methods.
+`v1.0`: Basic functionality with support for GET and POST methods.
