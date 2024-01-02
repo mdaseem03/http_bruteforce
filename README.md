@@ -1,5 +1,12 @@
 # HTTP Bruteforce Script
 
+
+![App Screenshot](https://github.com/mdaseem03/http_bruteforce/blob/main/img/app-screenshot.png)
+
+## License 
+[MIT License](https://choosealicense.com/licenses/mit/)
+
+
 ## Overview
 
 `http_bruteforce.py` is a simple Python script designed for HTTP brute-force attacks. It allows users to perform username and password combinations against a target URL using either GET or POST requests. The script supports customizing the username and password parameters, choosing the HTTP method, and specifying an optional error message to identify invalid attempts.
@@ -26,7 +33,8 @@ Ensure you have the following prerequisites installed before using the script:
 python3 http_bruteforce.py -x <usr_wordlist> -y <pwd_wordlist> -t <target_url> -u <username_param> -p <password_param> -m <http_method> [-e <error_message>]
 ```
 
-## Options
+## Help Menu
+![Help Message](https://github.com/mdaseem03/http_bruteforce/blob/main/img/help.png)
 - `x, --usrwordlist`: Path to the usernames wordlist file (required).
 - `y, --pwdwordlist`: Path to the passwords wordlist file (required).
 - `t, --target`: Target URL (required).
@@ -46,3 +54,6 @@ This script is intended for educational and ethical purposes only. Unauthorized 
 
 ## Version History
 `v1.0`: Bruteforce credentials in websites with error message using GET and POST methods.
+
+## Author
+[@mdaseem03](https://www.linkedin.com/in/mohammed-aseem%F0%9F%8E%96-11baa6217/)
