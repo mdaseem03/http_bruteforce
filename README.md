@@ -1,7 +1,8 @@
 # HTTP Bruteforce Script
 
-## App Screenshot 📸
-![App Screenshot](https://github.com/mdaseem03/http_bruteforce/blob/main/img/app-screenshot.png)
+<div align="center">
+<img src="https://github.com/mdaseem03/http_bruteforce/blob/main/img/app-screenshot.png">
+</div>
 
 ## About the Tool ⚒️
 
