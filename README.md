@@ -7,12 +7,8 @@
 ![](https://komarev.com/ghpvc/?username=mdaseem03&color=lightgrey&style=flat-square&label=VIEWS+COUNT)
 
 ## License 🪪
-[MIT License](https://choosealicense.com/licenses/mit/)
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
-## PyPi Version
-[![Python Module](https://img.shields.io/pypi/pyversions/:http-bruteforce)](https://pypi.org/project/http-bruteforce/1.0/) 
-
- 
 ## About the Tool ⚒️
 
 `http_bruteforce.py` is a simple Python script designed for HTTP brute-force attacks. It allows users to perform username and password combinations against a target URL using either GET or POST requests. The script supports customizing the username and password parameters, choosing the HTTP method, and specifying an optional error message to identify invalid attempts.
@@ -50,7 +46,7 @@ python3 http_bruteforce.py -x <usr_wordlist> -y <pwd_wordlist> -t <target_url> -
 - `e, --error`: Error message (optional).
 
 ## Python Module Installation ⬇️
-[PyPi Module Link](https://pypi.org/project/http-bruteforce/1.0/)
+[PyPi Module](https://pypi.org/project/http-bruteforce/1.0/)
 ```bash
 pip install http_bruteforce
 ```
